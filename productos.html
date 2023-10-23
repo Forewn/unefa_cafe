@@ -5,44 +5,83 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu_desktop.css" media="screen and (min-width : 800px)">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/productos_desktop.css" media="screen and (min-width : 800px)">
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <div id="menu_button">
+                <img src="resources/img/menu.png" alt="menu">
+            </div>
+            <h1>Unefa Cafe</h1>
+            <ul class="desktop_menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+                <a href="horarios.html"><li>Horarios</li></a>
+            </ul>
+        </nav>
+        <div id="menu_mobile" class="off">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="contacto.html"><li>Contacto</li></a>
+                <a href="horarios.html"><li>Horarios</li></a>
+            </ul>
+        </div>
+    </header>
     <main>
-        
         <div class="producto">
-            <img src="" alt="">
-            <h3>Espresso</h3>
-            <p></p>
+            <img src="resources/img/productos/espresso.jpg" alt="espresso">
+            <div class="texto">
+                <h3>Espresso</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut debitis perspiciatis qui fuga cupiditate perferendis, delectus molestias amet fugiat expedita, ut quia ea ipsa vel aperiam necessitatibus, odio reprehenderit laborum.</p>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="resources/img/productos/latte.jpg" alt="latte">
+            <div class="texto">
+                <h3>Espresso</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut debitis perspiciatis qui fuga cupiditate perferendis, delectus molestias amet fugiat expedita, ut quia ea ipsa vel aperiam necessitatibus, odio reprehenderit laborum.</p>
+            </div>
         </div>
         <div class="producto">
             <img src="" alt="">
-            <h3>Latte</h3>
-            <p></p>
+            <div class="texto">
+                <h3>Espresso</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut debitis perspiciatis qui fuga cupiditate perferendis, delectus molestias amet fugiat expedita, ut quia ea ipsa vel aperiam necessitatibus, odio reprehenderit laborum.</p>
+            </div>
         </div>
         <div class="producto">
             <img src="" alt="">
-            <h3>Caramel Macciato</h3>
-            <p></p>
+            <div class="texto">
+                <h3>Espresso</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut debitis perspiciatis qui fuga cupiditate perferendis, delectus molestias amet fugiat expedita, ut quia ea ipsa vel aperiam necessitatibus, odio reprehenderit laborum.</p>
+            </div>
         </div>
         <div class="producto">
             <img src="" alt="">
-            <h3>Capuccino</h3>
-            <p></p>
+            <div class="texto">
+                <h3>Espresso</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut debitis perspiciatis qui fuga cupiditate perferendis, delectus molestias amet fugiat expedita, ut quia ea ipsa vel aperiam necessitatibus, odio reprehenderit laborum.</p>
+            </div>
         </div>
         <div class="producto">
             <img src="" alt="">
-            <h3>Mocca</h3>
-            <p></p>
-        </div>
-        <div class="producto">
-            <img src="" alt="">
-            <h3>Frapuccino</h3>
-            <p></p>
+            <div class="texto">
+                <h3>Espresso</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut debitis perspiciatis qui fuga cupiditate perferendis, delectus molestias amet fugiat expedita, ut quia ea ipsa vel aperiam necessitatibus, odio reprehenderit laborum.</p>
+            </div>
         </div>
     </main>
     <footer></footer>
+    <script src="js/mobile_menu.js"></script>
 </body>
 </html></html>

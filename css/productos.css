@@ -1,0 +1,26 @@
+main{
+    padding: 0 20px 20px 20px;
+}
+
+.producto{
+    margin-top: 20px;
+    display: flex;
+    border: solid black 1px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.producto:hover{
+    background-color: black;
+    color: white;
+}
+
+.producto .texto{
+    max-width: 65vw;
+    margin-left: 5px;
+}
+
+.producto img{
+    width: 30vw;
+    max-height: 100%;
+}

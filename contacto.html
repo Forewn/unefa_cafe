@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu_desktop.css" media="screen and (min-width : 800px)">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="menu_button">
+                <img src="resources/img/menu.png" alt="menu">
+            </div>
+            <h1>Unefa Cafe</h1>
+            <ul class="desktop_menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="productos.html"><li>Productos</li></a>
+                <a href="horarios.html"><li>Horarios</li></a>
+            </ul>
+        </nav>
+        <div id="menu_mobile" class="off">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="productos.html"><li>Productos</li></a>
+                <a href="horarios.html"><li>Horarios</li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" id="formulario">
+                <label for="first_name">Nombre</label>
+                <input type="text" placeholder="Mario" name="first_name">
+                <label for="last_name">Apellido</label>
+                <input type="text" placeholder="Suarez" name="last_name">
+                <label for="email">Correo</label>
+                <input type="email" name="email" placeholder="xxx@gmail.com">
+                <label for="phonenumber">telefono</label>
+                <input type="tel" name="phonenumber" placeholder="uwu">
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/mobile_menu.js"></script>
+</body>
+</html>

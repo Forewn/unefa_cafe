@@ -1,0 +1,9 @@
+#menu_button img{
+    display: none;
+}
+
+.desktop_menu{
+    display: inherit;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
