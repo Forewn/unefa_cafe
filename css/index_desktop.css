@@ -3,6 +3,19 @@
 }
 
 .main_banner video{
-    max-height: 70vh;
-    min-width: 100vw;
+    height: auto;
+    width: 100vw;
+    max-height: 96vh;
+}
+
+#hombre_coffee{
+    height: 60%;
+}
+
+#first_pic{
+    height: 100vh;
+}
+
+#first_pic h1{
+    font-size: 80px;
 }

@@ -3,12 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const btn = document.getElementById('menu_button');
     btn.addEventListener('click', () => {
         const menu = document.getElementById('menu_mobile');
+        const main = document.querySelector('main');
         if(!deployed){
-            menu.setAttribute('style', 'display:block');
+            menu.style.display = 'block';
+            main.style.marginTop = 0;
             deployed = true;
         }
         else{
-            menu.setAttribute('style', 'display:none;');
+            menu.style.display = 'none';
+            main.style.marginTop = '40px';
             deployed = false
         }
     });

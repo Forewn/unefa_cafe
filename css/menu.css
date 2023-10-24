@@ -8,10 +8,13 @@
 nav{
     display: flex;
     justify-content: space-evenly;
+    height: 40px;
     min-width: 100vw;
+    background-color: #264d62;
     border: black 1px solid;
-    position: sticky;
+    position: fixed;
     top: 0;
+    opacity: 1;
     z-index: 1;
 }
 
@@ -21,8 +24,8 @@ nav h1{
     padding-top: 5px;
 }
 
-.main_banner video{
-    width: 100vw;
+main{
+    margin-top: 40px;
 }
 
 #menu_button img{
@@ -36,17 +39,20 @@ nav h1{
     display: none;
     justify-content: space-evenly;
     flex-grow: 1;
+    flex: auto;
 }
 
 .desktop_menu li{
     display: inline-block;
+    color: white;
 }
 
 
 #menu_mobile{
     display: none;
+    margin-top: 40px;
     animation: deploy 0.25s linear;
-    background-color: black;
+    background-color: #f3daaa;
     border-radius: 5px;
 }
 
