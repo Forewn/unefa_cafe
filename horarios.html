@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/menu_desktop.css" media="screen and (min-width : 800px)">
+    <link rel="stylesheet" href="css/horarios.css">
 </head>
 <body>
     <header>
@@ -28,6 +29,54 @@
             </ul>
         </div>
     </header>
+    <main>
+        <table>
+            <caption>Horario de trabajo</caption>
+            <thead>
+                <th>Horas</th>
+                <th>L</th>
+                <th>M</th>
+                <th>X</th>
+                <th>J</th>
+                <th>V</th>
+                <th>S</th>
+                <th>D</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>00:00 - 7:00</td>
+                    <td colspan="8">Cerrado</td>
+                </tr>
+                <tr>
+                    <td>7:00 - 8:00</td>
+                    <td colspan="5">Apertura</td>
+                    <td colspan="2">Cerrado</td>
+                </tr>
+                <tr>
+                    <td>8:00 - 8:30</td>
+                    <td colspan="5"><a href="productos.html#desayunos"><br>Desayunos</a></td>
+                    <td colspan="2">Apertura</td>
+                </tr>
+                <tr>
+                    <td>8:30 - 11:30</td>
+                    <td colspan="7"><a href="productos.html#desayunos"><br>Desayunos</a></td>
+                </tr>
+                <tr>
+                    <td>11:30 - 16:30</td>
+                    <td colspan="7"><a href="productos.html#almuerzos"><br>Almuerzos</a></td>
+                </tr>
+                <tr>
+                    <td>16:30 - 22:00</td>
+                    <td colspan="7"><a href="productos.html#cenas"><br>Cenas</a></td>
+                </tr>
+                <tr>
+                    <td>22:00 - 00:00</td>
+                    <td colspan="8">Cerrado</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer><p>Jhosmar Suarez, Derechos reservados</p></footer>
     <script src="js/mobile_menu.js"></script>
 </body>
 </html>
