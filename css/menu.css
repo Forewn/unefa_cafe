@@ -56,7 +56,6 @@ main{
     margin-top: 50px;
     animation: deploy 0.25s linear;
     background-color: #264d62;
-    border-radius: 5px;
 }
 
 @keyframes deploy {
