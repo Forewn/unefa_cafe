@@ -10,27 +10,28 @@ table{
 }
 
 td, th, caption{
-    border: 1px black solid;
+    border: 1px rgb(255, 255, 255) solid;
     text-align: center;
     overflow-y: hidden;
 }
 
+
 caption{
-    background-color: rgb(173, 166, 166);
+    background-color: #264d62;
 }
 
 table a{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     height: 100%;
     width: 100%;
-    color: black;
+    color: white;
     transition: 0.2s;
 
 }
 
 table a:hover{
-    background-color: black;
-    color: white;
-    transform: scale(2);
+    background-color: white;
+    color: black;
+    transform: translateY(5px);
 }

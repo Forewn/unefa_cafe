@@ -11,10 +11,14 @@ main{
     padding-top: 50px;
 }
 
+.producto:active{
+    background-color: rgb(46, 46, 46);
+}
+
 .producto{
     margin-top: 20px;
     display: flex;
-    border: solid black 1px;
+    border: solid white 1px;
     border-radius: 20px;
     transition: 0.5s ease-in-out;
 }
