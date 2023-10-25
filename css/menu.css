@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Playpen Sans', cursive;
 }
 
 nav{
     display: flex;
     justify-content: space-evenly;
-    height: 40px;
+    height: 50px;
     min-width: 100vw;
     background-color: #264d62;
     border: black 1px solid;
@@ -35,7 +38,7 @@ main{
 
 .desktop_menu{
     list-style: none;
-    padding: 10px 0;
+    padding: 9px 0;
     display: none;
     justify-content: space-evenly;
     flex-grow: 1;
@@ -50,9 +53,9 @@ main{
 
 #menu_mobile{
     display: none;
-    margin-top: 40px;
+    margin-top: 50px;
     animation: deploy 0.25s linear;
-    background-color: #f3daaa;
+    background-color: #264d62;
     border-radius: 5px;
 }
 
@@ -73,8 +76,13 @@ main{
     height: 25px;
 }
 
-footer{
+main{
     background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: #264d62;
     color: white;
     text-align: center;
 }

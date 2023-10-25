@@ -6,26 +6,26 @@ document.addEventListener('DOMContentLoaded', () =>{
         prevy = this.window.scrollY;
         console.log(this.window.scrollY)
         if(this.window.screenX <= 800){
-            if(this.window.scrollY >= 130){
+            if(this.window.scrollY >= 200){
                 hombre.style.left = '50px';
                 hombre.style.opacity = 1;
                 mujer.style.filter = 'none';
                 
             }
-            else if(this.window.scrollY < 130){
+            else if(this.window.scrollY < 200){
                 hombre.style.left = 0;
                 hombre.style.opacity = 0;
                 mujer.style.filter = 'blur(10px)';
             }
         }
         else{
-            if(this.window.scrollY >= 900){
+            if(this.window.scrollY >= 1400){
                 hombre.style.left = '50px';
                 hombre.style.opacity = 1;
                 mujer.style.filter = 'none';
                 
             }
-            else if(this.window.scrollY < 900){
+            else if(this.window.scrollY < 1400){
                 hombre.style.left = 0;
                 hombre.style.opacity = 0;
                 mujer.style.filter = 'blur(10px)';

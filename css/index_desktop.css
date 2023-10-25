@@ -19,3 +19,11 @@
 #first_pic h1{
     font-size: 80px;
 }
+
+.intersection > h2{
+    font-size: 60px;
+}
+
+.map iframe{
+    height: 100vh;
+}
