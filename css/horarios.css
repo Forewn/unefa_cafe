@@ -6,7 +6,7 @@ main{
 table{
     margin: 20px;
     width: 80vw;
-    height: 60vh;
+    height: 85vh;
 }
 
 td, th, caption{
@@ -27,7 +27,7 @@ table a{
     width: 100%;
     color: white;
     transition: 0.2s;
-
+    padding: 22% 0;
 }
 
 table a:hover{

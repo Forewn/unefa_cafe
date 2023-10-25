@@ -2,17 +2,13 @@ html{
     scroll-behavior: smooth;
 }
 
-main{
-    padding: 0 20px 20px 20px;
-    margin-top: 0;
-}
-
 .productos{
-    padding-top: 50px;
+    padding: 50px 20px 20px 20px;
 }
 
-.producto:active{
-    background-color: rgb(46, 46, 46);
+#almuerzos:target, #desayunos:target, #cenas:target{
+    background-color: rgb(24, 23, 23);
+    transition: 0.5s;
 }
 
 .producto{
