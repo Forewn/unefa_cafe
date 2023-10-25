@@ -4,6 +4,10 @@
     border-radius: 5px;
 }
 
+nav h1{
+    overflow: hidden;
+}
+
 #formulario{ 
     padding: 5px;
     display: flex;
